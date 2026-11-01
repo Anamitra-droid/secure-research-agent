@@ -1,4 +1,4 @@
-# Autonomous Research Agent
+# Secure Research Agent
 
 Give it a topic → it researches, writes a full report, safety-checks it, caches it, and remembers it. Built on AWS with a real multi-agent pipeline, red teaming, and LLM evaluation on every request.
 
@@ -24,7 +24,7 @@ Give it a topic → it researches, writes a full report, safety-checks it, cache
 ## File Structure
 
 ```
-PROJECT/
+secure-research-agent/
 ├── app/
 │   ├── main.py           API, background worker, all endpoints
 │   ├── agents.py         LangGraph multi-agent graph
@@ -115,14 +115,14 @@ Bootstrap complete.
 
 ### 3. Create a GitHub repo and add secrets
 
-1. Go to https://github.com and create a new repo named `research-agent`
+1. Go to https://github.com and create a new repo named `secure-research-agent`
 
 2. Push this project to it:
 ```bash
 git init
 git add .
 git commit -m "initial commit"
-git remote add origin https://github.com/YOUR_USERNAME/research-agent.git
+git remote add origin https://github.com/YOUR_USERNAME/secure-research-agent.git
 git push -u origin main
 ```
 
